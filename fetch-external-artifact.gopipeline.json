@@ -43,7 +43,7 @@
                "artifacts":[
                   {
                             "type": "external",
-                            "artifact_id": "asdf",
+                            "id": "asdf",
                             "store_id": "asdf",
                             "configuration": [
                                 {
