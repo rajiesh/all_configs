@@ -1,6 +1,6 @@
 {
    "target_version" : 3,
-   "name":"fetch-external-artifact-from-main-pipeline",
+   "name":"Fetch-External-Artifact-From-Main-Pipeline",
    "environment_variables":[
 
    ],
@@ -41,6 +41,24 @@
 
                ],
                "artifacts":[
+                  {
+                            "type": "external",
+                            "artifact_id": "asdf",
+                            "store_id": "asdf",
+                            "configuration": [
+                                {
+                                    "key": "BuildFile"
+                                },
+                                {
+                                    "key": "Image",
+                                    "value": "localhost:5000/centos"
+                                },
+                                {
+                                    "key": "Tag",
+                                    "value": "7"
+                                }
+                            ]
+                        }
 
                ],
                "properties":[
