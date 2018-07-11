@@ -1,5 +1,5 @@
 {
-   "format_version" : 2,
+   "format_version" : 3,
    "name":"fetch-external-artifact-from-main-pipeline",
    "environment_variables":[
 
@@ -64,7 +64,7 @@
                      "stage":"defaultStage",
                      "job":"defaultJob",
                      "run_if": "any",
-                     "source":"emptyfile.txt",
+                     "artifact_id":"asdf",
                      "configuration":[  
 
                      ]
