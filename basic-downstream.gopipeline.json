@@ -14,7 +14,7 @@
       },
       {
          "pipeline":"basic-upstream",
-         "stage":"testStage",
+         "stage":"ChangedStage",
          "name":"main-repo",
          "type":"dependency"
       }
