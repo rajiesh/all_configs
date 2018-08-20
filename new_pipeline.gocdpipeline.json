@@ -1,0 +1,62 @@
+{
+   "target_version" : 1,
+   "name":"new-pipeline",
+   "environment_variables":[
+
+   ],
+   "group":"group1",
+   "materials":[
+      {
+         "type":"git",
+         "url":"http://github.com/rajiesh/all_configs.git",
+         "name":"material-name",
+         "destination":"dest"
+      }
+   ],
+   "stages":[
+      {
+         "name":"ChangedStage",
+         "fetch_materials":true,
+         "never_cleanup_artifacts":false,
+         "clean_working_directory":false,
+         "environment_variables":[
+
+         ],
+         "jobs":[
+            {
+               "name":"build",
+               "environment_variables":[
+
+               ],
+               "tabs":[
+
+               ],
+               "resources":[
+
+               ],
+               "artifacts":[
+
+               ],
+               "properties":[
+
+               ],
+               "run_instance_count":null,
+               "timeout":0,
+               "tasks":[
+                  {
+                     "type":"exec",
+                     "run_if":"passed",
+                     "on_cancel":null,
+                     "command":"/bin/bash",
+                     "arguments":[
+                        "-c",
+                        "sleep 30"
+                     ],
+                     "working_directory":null
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
