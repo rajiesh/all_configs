@@ -4,7 +4,7 @@
    "environment_variables":[
 
    ],
-   "group":"group1",
+   "group":"group3",
    "materials":[
       {
          "type":"git",
