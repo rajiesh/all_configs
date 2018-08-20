@@ -1,6 +1,6 @@
 {
    "target_version" : 3,
-   "name":"basic-downstream",
+   "name":"basic-downstream-name-changed",
    "environment_variables":[
 
    ],
