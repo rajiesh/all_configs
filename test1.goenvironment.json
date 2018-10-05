@@ -1,1 +1,1 @@
-{"format_version"=>1, "name"=>"performance1", "pipelines"=>["basic-upstream"]}
+{"format_version"=>3, "name"=>"performance1", "pipelines"=>["basic-upstream"]}
