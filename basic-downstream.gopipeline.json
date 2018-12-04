@@ -7,7 +7,7 @@
    "group":"group1",
    "materials":[
       {
-         "type":"git2",
+         "type":"git",
          "url":"http://github.com/rajiesh/all_configs.git",
          "name":"material-name",
          "destination":"dest"
